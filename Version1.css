@@ -1,0 +1,38 @@
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  background: #ffff32;
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+}
+
+td {
+  background: pink;
+}
+
+.box {
+  border: 2px solid hotpink;
+}
+
+.box .p1 {
+  font-family: Arial, sans-serif;
+}
+
+.box .p2 {
+  font-family: Courier;
+}
+
+.box .p3 {
+  font-family: Corsiva;
+}
