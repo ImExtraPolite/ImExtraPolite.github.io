@@ -1,0 +1,84 @@
+/* EVERYTHING */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  border: 2px dashed black;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+/* MAIN CONTENT */
+.container {
+  width: 90%;
+  height: 377px;
+  margin: auto;
+}
+
+.container img,
+.container p {
+  margin-right: 1px;
+  width: 32.6%;
+  float: left;
+  border: 2px solid black;
+}
+
+.container p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  height: 353px;
+}
+
+/* FUN FACTS */
+.container2 {
+  text-align: center;
+}
+
+.container2 ul {
+  list-style: none;
+}
+
+.container2 li {
+  line-height: 1.6em;
+}
+
+.links {
+  width: 19.4%;
+  height: 40px;
+  margin: auto;
+}
+
+/* NAVIGATION */
+.links a,
+.links p {
+  float: left;
+}
+
+.links a {
+  color: gray;
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  border: solid black;
+  background-color: black;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.links a:hover {
+  background-color: black;
+  color: rgb(92, 92, 92);
+}
+
+.link a:visited {
+  color: gray;
+}
