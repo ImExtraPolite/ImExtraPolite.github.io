@@ -1,0 +1,192 @@
+/* PIC NAV */
+#top {
+  width: 100%;
+  height: 127px;
+}
+
+#top .top1,
+#top .top2 {
+  width: 8%;
+}
+
+#top .top1 {
+  float: left;
+}
+
+#top .top2 {
+  float: right;
+}
+
+/* TITLE */
+
+.title h1 {
+  text-align: center;
+}
+
+/* MAIN BODY */
+.main {
+  width: 95%;
+  height: 550px;
+  border: 2px solid black;
+  background-color: pink;
+  color: white;
+}
+
+.main .ptitle {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* BORDER */
+.border {
+  width: 85%;
+  height: 500px;
+  margin: auto;
+}
+
+/* SUB MAIN 1 */
+
+.sub1 {
+  width: 75%;
+  height: 230px;
+  margin: auto;
+}
+
+.border .sub1 figure {
+  margin-top: 0;
+  width: 30%;
+  height: 200px;
+  float: left;
+}
+
+.border .sub1 img {
+  border: solid purple;
+  padding-top: 0px;
+  width: 80%;
+  height: 200px;
+}
+
+.sub1 ul {
+  padding-top: 30px;
+  width: 90%;
+  height: 200px;
+}
+
+.sub1 li {
+  font-size: 18px;
+  list-style: none;
+}
+
+/* SUB MAIN 2 */
+.sub2 {
+  width: 75%;
+  margin: auto;
+  height: 230px;
+}
+
+.sub2 figure {
+  width: 30%;
+  float: right;
+}
+
+.border .sub2 img {
+  border: solid purple;
+  width: 80%;
+}
+
+.border .sub2 p {
+  width: 50%;
+  float: left;
+  font-size: 18px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+/* NEWS */
+
+.news p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news .news-title {
+  margin-top: 20px;
+}
+
+.news .p {
+  padding-left: 50px;
+}
+
+/* TABLE */
+.price-table h3 {
+  margin-bottom: 0;
+}
+
+.price-table table {
+  margin-top: 0px;
+  border: 2px solid black;
+}
+
+th,
+td {
+  border: white;
+}
+
+.pink-box {
+  background-color: pink;
+}
+
+.green-row {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/* CONTACT */
+
+.contact ul {
+  margin-left: 120px;
+}
+
+.contact li {
+  list-style: none;
+  padding: 20px;
+}
+
+.contact .phone {
+  list-style-image: url("phone.png");
+}
+
+.contact .email {
+  list-style-image: url("email.png");
+}
+
+.contact .instagram {
+  list-style-image: url("instagram.png");
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+}
+
+.footer ul {
+  font-size: 20px;
+
+  width: 30%;
+  margin: auto;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+}
+
+.footer span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer p {
+  text-align: center;
+}

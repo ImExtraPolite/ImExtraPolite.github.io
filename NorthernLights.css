@@ -1,0 +1,85 @@
+/* GLOBAL */
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* TITLE */
+#title {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+/* MAIN CONTENT */
+.container {
+  width: 90%;
+  height: 377px;
+  margin: auto;
+}
+
+.container img,
+.container p {
+  margin-right: 1px;
+  width: 32.6%;
+  float: left;
+  border: 2px solid black;
+}
+
+.container .img1 {
+  height: 373px;
+}
+
+.container .img2 {
+  height: 373px;
+}
+
+.container p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  padding: 10px;
+  height: 353px;
+}
+
+/* FUN FACTS */
+
+.container2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container2 li {
+  line-height: 1.6em;
+}
+
+.links {
+  width: 19.4%;
+  height: 40px;
+  margin: auto;
+}
+
+/* NAVIGATION */
+.footer {
+  width: 100%;
+}
+
+.footer ul {
+  font-size: 20px;
+
+  width: 30%;
+  margin: auto;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+}
+
+.footer span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer p {
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+.contact ul {
+  margin-left: 120px;
+}
+
+.contact li {
+  list-style: none;
+  padding: 20px;
+}
+
+.contact .phone {
+  list-style-image: url("phone.png");
+}
+
+.contact .email {
+  list-style-image: url("email.png");
+}
+
+.contact .instagram {
+  list-style-image: url("instagram.png");
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer ul {
+  font-size: 20px;
+
+  width: 30%;
+  margin: auto;
+}
+
+.footer li {
+  list-style: none;
+  display: inline;
+}
+
+.footer span {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer p {
+  text-align: center;
+}
