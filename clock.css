@@ -1,0 +1,46 @@
+body {
+  background-color: lightgray;
+}
+
+.clock {
+  width: 100%;
+}
+
+.clock img {
+  width: 20%;
+  position: relative;
+}
+
+.min-hand img {
+  top: 6.8%;
+  left: 8.6%;
+  width: 3.5%;
+  padding-bottom: 7%;
+  position: absolute;
+  animation-name: min-spin;
+  animation-duration: 10s;
+  /* animation-iteration-count: infinite; */
+}
+
+.hour-hand img {
+  top: 18.8%;
+  left: 5.2%;
+  width: 5%;
+  position: absolute;
+  padding-left: 5%;
+  animation-name: hour-spin;
+  animation-duration: 10s;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes min-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hour-spin {
+  100% {
+    transform: rotate(30deg);
+  }
+}
