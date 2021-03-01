@@ -1,0 +1,102 @@
+body {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: white;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, rgb(255, 39, 255), rgb(197, 197, 0));
+}
+
+.head {
+  border-bottom: 7px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 200px;
+}
+
+.play,
+.right button {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  float: right;
+  background-color: aqua;
+  border: solid yellow;
+  padding: 15px 20px;
+  border-radius: 15%;
+  outline: none;
+}
+
+.play:hover,
+.right button:hover {
+  background-color: rgb(8, 137, 223);
+}
+
+.head h1 {
+  text-align: center;
+  margin-top: 50px;
+  top: 100px;
+  width: 100%;
+}
+
+.img {
+  background-color: white;
+  top: -60px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px hotpink;
+}
+
+.img h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.bottom {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 250px;
+}
+
+.left,
+.right {
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.right input {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background: none;
+  border: solid white;
+  width: 60%;
+  height: 30%;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+
+.right button {
+  float: none;
+}
